@@ -1,24 +1,21 @@
-//
-//  ContentView.swift
-//  Gym-App
-//
-//  Created by Anjal Maharjan on 10/09/2024.
-//
+	//
+	//  ContentView.swift
+	//  Gym-App
+	//
+	//  Created by Anjal Maharjan on 10/09/2024.
+	//
 
 import SwiftUI
 
 struct ContentView: View {
-    var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
-        }
-        .padding()
-    }
+	var body: some View {
+		GymGetStartedView()
+	}
 }
 
 #Preview {
-    ContentView()
+	ContentView()
 }
+
+
+

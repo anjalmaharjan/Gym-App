@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		35967C0F2C9151B9008B5ED8 /* GymDashboardViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35967C0E2C9151B9008B5ED8 /* GymDashboardViewModel.swift */; };
 		35B88DF42C90AB0900A52B7C /* Gym_AppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35B88DF32C90AB0900A52B7C /* Gym_AppApp.swift */; };
 		35B88DF62C90AB0900A52B7C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35B88DF52C90AB0900A52B7C /* ContentView.swift */; };
 		35B88DF82C90AB0A00A52B7C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 35B88DF72C90AB0A00A52B7C /* Assets.xcassets */; };
@@ -14,6 +15,11 @@
 		35B88E052C90AB0A00A52B7C /* Gym_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35B88E042C90AB0A00A52B7C /* Gym_AppTests.swift */; };
 		35B88E0F2C90AB0A00A52B7C /* Gym_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35B88E0E2C90AB0A00A52B7C /* Gym_AppUITests.swift */; };
 		35B88E112C90AB0A00A52B7C /* Gym_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35B88E102C90AB0A00A52B7C /* Gym_AppUITestsLaunchTests.swift */; };
+		35B88E1E2C90B48300A52B7C /* GymButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35B88E1D2C90B48300A52B7C /* GymButtonView.swift */; };
+		35B88E202C90B5CA00A52B7C /* GymDashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35B88E1F2C90B5CA00A52B7C /* GymDashboardView.swift */; };
+		35B88E222C90B85400A52B7C /* GymDescriptionTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35B88E212C90B85400A52B7C /* GymDescriptionTextView.swift */; };
+		35B88E242C90B92D00A52B7C /* GymTitleTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35B88E232C90B92D00A52B7C /* GymTitleTextView.swift */; };
+		35B88E262C90C07100A52B7C /* GymGetStartedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35B88E252C90C07100A52B7C /* GymGetStartedView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +40,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		35967C0E2C9151B9008B5ED8 /* GymDashboardViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GymDashboardViewModel.swift; sourceTree = "<group>"; };
 		35B88DF02C90AB0900A52B7C /* Gym-App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Gym-App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		35B88DF32C90AB0900A52B7C /* Gym_AppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gym_AppApp.swift; sourceTree = "<group>"; };
 		35B88DF52C90AB0900A52B7C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -44,6 +51,11 @@
 		35B88E0A2C90AB0A00A52B7C /* Gym-AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Gym-AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		35B88E0E2C90AB0A00A52B7C /* Gym_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gym_AppUITests.swift; sourceTree = "<group>"; };
 		35B88E102C90AB0A00A52B7C /* Gym_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gym_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		35B88E1D2C90B48300A52B7C /* GymButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GymButtonView.swift; sourceTree = "<group>"; };
+		35B88E1F2C90B5CA00A52B7C /* GymDashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GymDashboardView.swift; sourceTree = "<group>"; };
+		35B88E212C90B85400A52B7C /* GymDescriptionTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GymDescriptionTextView.swift; sourceTree = "<group>"; };
+		35B88E232C90B92D00A52B7C /* GymTitleTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GymTitleTextView.swift; sourceTree = "<group>"; };
+		35B88E252C90C07100A52B7C /* GymGetStartedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GymGetStartedView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +83,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		35967C0C2C913A59008B5ED8 /* GetStarted */ = {
+			isa = PBXGroup;
+			children = (
+				35B88E252C90C07100A52B7C /* GymGetStartedView.swift */,
+			);
+			path = GetStarted;
+			sourceTree = "<group>";
+		};
+		35967C0D2C913A8F008B5ED8 /* Dashboard */ = {
+			isa = PBXGroup;
+			children = (
+				35B88E1F2C90B5CA00A52B7C /* GymDashboardView.swift */,
+				35967C0E2C9151B9008B5ED8 /* GymDashboardViewModel.swift */,
+			);
+			path = Dashboard;
+			sourceTree = "<group>";
+		};
 		35B88DE72C90AB0900A52B7C = {
 			isa = PBXGroup;
 			children = (
@@ -94,10 +123,15 @@
 		35B88DF22C90AB0900A52B7C /* Gym-App */ = {
 			isa = PBXGroup;
 			children = (
+				35967C0D2C913A8F008B5ED8 /* Dashboard */,
+				35967C0C2C913A59008B5ED8 /* GetStarted */,
 				35B88DF32C90AB0900A52B7C /* Gym_AppApp.swift */,
 				35B88DF52C90AB0900A52B7C /* ContentView.swift */,
+				35B88E1D2C90B48300A52B7C /* GymButtonView.swift */,
 				35B88DF72C90AB0A00A52B7C /* Assets.xcassets */,
 				35B88DF92C90AB0A00A52B7C /* Preview Content */,
+				35B88E212C90B85400A52B7C /* GymDescriptionTextView.swift */,
+				35B88E232C90B92D00A52B7C /* GymTitleTextView.swift */,
 			);
 			path = "Gym-App";
 			sourceTree = "<group>";
@@ -257,8 +291,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				35B88E242C90B92D00A52B7C /* GymTitleTextView.swift in Sources */,
 				35B88DF62C90AB0900A52B7C /* ContentView.swift in Sources */,
+				35B88E202C90B5CA00A52B7C /* GymDashboardView.swift in Sources */,
 				35B88DF42C90AB0900A52B7C /* Gym_AppApp.swift in Sources */,
+				35B88E222C90B85400A52B7C /* GymDescriptionTextView.swift in Sources */,
+				35B88E1E2C90B48300A52B7C /* GymButtonView.swift in Sources */,
+				35B88E262C90C07100A52B7C /* GymGetStartedView.swift in Sources */,
+				35967C0F2C9151B9008B5ED8 /* GymDashboardViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
